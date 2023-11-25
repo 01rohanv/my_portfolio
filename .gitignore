@@ -13,6 +13,8 @@
 /.next/
 /out/
 
+id_rsa.pub
+
 # production
 /build
 
