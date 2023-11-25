@@ -10,7 +10,6 @@ import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const pathname = usePathname();
-  console.log(pathname, "pathname");
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
