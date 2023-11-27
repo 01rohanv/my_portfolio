@@ -29,6 +29,24 @@ module.exports = {
           " repeating-radial-gradient(rgba(255,255,255,0.5) 2px, #1b1b1b 8px,#1b1b1b 100px);",
       },
     },
+    screens: {
+      "2xl": { max: "1535px" },
+      // => @media (min-width: 1535px) { ... }
+
+      xl: { max: "1279px" },
+      // => @media (min-width: 1279px) { ... }
+
+      lg: { max: "1023px" },
+      // => @media (min-width: 1023px) { ... }
+
+      md: { max: "767px" },
+      // => @media (min-width: 767px) { ... }
+
+      sm: { max: "639px" },
+      // => @media (min-width: 639px) { ... }
+      xs: { max: "479px" },
+      // => @media (min-width: 479px) { ... }
+    },
   },
   plugins: [],
 };
