@@ -9,6 +9,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
+import TransitionEffect from "../components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -40,6 +41,7 @@ const page = () => {
         <title>Rohan | About Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
@@ -53,17 +55,9 @@ const page = () => {
               </h2>
               <p className="font-medium">
                 After completing my education, I ventured into the professional
-                world. I have had the opportunity to work in [mention industry
-                or field], where I've gained valuable experience in [highlight
-                key skills or areas of expertise]. Some notable achievements
-                include [mention any significant accomplishments or projects].
-              </p>
-              <p className=" my-4 font-medium">
-                After completing my education, I ventured into the professional
-                world. I have had the opportunity to work in [mention industry
-                or field], where I've gained valuable experience in [highlight
-                key skills or areas of expertise]. Some notable achievements
-                include [mention any significant accomplishments or projects].
+                world. I have had the opportunity to work in CodeCrux and
+                Anandpush Technolgies, where I've gained valuable experience in
+                Ui/Ux, ReactJs, NextJs.
               </p>
             </div>
             <div

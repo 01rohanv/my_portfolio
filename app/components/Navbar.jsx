@@ -91,7 +91,7 @@ const Navbar = () => {
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -117,9 +117,9 @@ const Navbar = () => {
             whileTap={{ scale: 0.9 }}
           >
             <GitHubIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
-            href="https://github.com"
+            href="https://github.com/"
             target={"_blank"}
             className="w-6 mx-3 bg-light rounded-full"
             whileHover={{ y: -2 }}
@@ -181,7 +181,7 @@ const Navbar = () => {
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -207,9 +207,9 @@ const Navbar = () => {
               whileTap={{ scale: 0.9 }}
             >
               <GitHubIcon />
-            </motion.a>
+            </motion.a> */}
             <motion.a
-              href="https://github.com"
+              href="https://github.com/"
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full sm:mx-1"
               whileHover={{ y: -2 }}
@@ -218,7 +218,7 @@ const Navbar = () => {
               <GitHubIcon />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rohan-verma-604771149"
               target={"_blank"}
               className="w-6 mt-1 ml-3 sm:mx-1"
               whileHover={{ y: -2 }}
