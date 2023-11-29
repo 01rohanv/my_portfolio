@@ -51,15 +51,15 @@ const Education = () => {
             info="Revelent courses"
           />
           <Details
-            type="Bachelor of Technology In Computer Science"
-            time="2017-2021"
-            place="IFHE Hyderabad"
+            type="Completed Intermediate from School Dr.V.S.E.C"
+            time="2017"
+            place="Dr. V.S.E.C, Kanpur"
             info="Revelent courses"
           />
           <Details
-            type="Bachelor of Technology In Computer Science"
-            time="2017-2021"
-            place="IFHE Hyderabad"
+            type="Completed HighSchool from School Dr.V.S.E.C"
+            time="2015"
+            place="Dr. V.S.E.C, Kanpur"
             info="Revelent courses"
           />
         </ul>

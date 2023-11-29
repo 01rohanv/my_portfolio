@@ -25,9 +25,9 @@ const Footer = () => {
             Rohan Verma
           </Link>
         </div>
-        <Link href="/" target="_blank" className="underline underline-offset-2">
-          Say Hello
-        </Link>
+        {/* <Link href="/" target="_blank" className="underline underline-offset-2"> */}
+        <span>&#9993; rv0181998@gmail.com</span>
+        {/* </Link> */}
       </Layout>
     </footer>
   );

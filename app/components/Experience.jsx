@@ -60,28 +60,20 @@ const Experience = () => {
             companyLink="https://atpl.live/"
           />
           <Details
-            position="ReactJs Developer"
-            company="AnandPush Technologies Private Limited"
-            time="March 2022 - Present"
-            address="Adventz Infinity @5,Unit No.609,Plot No.5,BN Block,Salt Lake Sector-5 Kolkata,Wb,In 700091"
-            work="Worked on a team responsible for developing new features"
-            companyLink="https://atpl.live/"
+            position="UI/Ux Developer"
+            company="CodeCrux Web Technologies Private Limited"
+            time="2021 - 2022"
+            address="2.0 3rd floor, 0 | Technology Hub, SALARPURIA SATTVA KNOWLEDGE CITY, T-Hub 2, 20, Inorbit Mall Rd, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081"
+            work="Worked on a project for developing UI pages"
+            companyLink="https://codecrux.com/"
           />
           <Details
-            position="ReactJs Developer"
-            company="AnandPush Technologies Private Limited"
-            time="March 2022 - Present"
-            address="Adventz Infinity @5,Unit No.609,Plot No.5,BN Block,Salt Lake Sector-5 Kolkata,Wb,In 700091"
-            work="Worked on a team responsible for developing new features"
-            companyLink="https://atpl.live/"
-          />
-          <Details
-            position="ReactJs Developer"
-            company="AnandPush Technologies Private Limited"
-            time="March 2022 - Present"
-            address="Adventz Infinity @5,Unit No.609,Plot No.5,BN Block,Salt Lake Sector-5 Kolkata,Wb,In 700091"
-            work="Worked on a team responsible for developing new features"
-            companyLink="https://atpl.live/"
+            position="Intern"
+            company="Ahex Technologies Private Limited"
+            time="2020"
+            address=" P.No-1367 to 1370, 100 ft Road, VIP Hills, Silicon Valley, Madhapur, Hyderabad, Telangana 500081"
+            work="Worked as a intern"
+            companyLink="https://ahex.co/"
           />
         </ul>
       </div>

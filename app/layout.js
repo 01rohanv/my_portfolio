@@ -18,9 +18,10 @@ export default function RootLayout({ children }) {
         className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}
       >
         <Navbar />
-        <AnimatePresence mode="wait">
-          <main key={pathname}>{children}</main>
-        </AnimatePresence>
+        {children}
+        {/* <AnimatePresence mode="wait"> */}
+        {/* <main key={pathname}>{children}</main> */}
+        {/* </AnimatePresence> */}
         <Footer />
       </body>
     </html>

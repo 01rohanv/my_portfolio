@@ -8,6 +8,7 @@ import Image from "next/image";
 import { GitHubIcon } from "../components/Icons";
 import projectImg from "../../public/images/netflix.png";
 import reactportfolio from "../../public/images/reactportfolio.png";
+import taskTracker from "../../public/images/taskTracker.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "../components/TransitionEffect";
 
@@ -160,16 +161,16 @@ const page = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Netflix Clone"
-                summary="A demo netflix clone in which you can see the trailer also"
-                link="/"
-                github="/"
-                img={projectImg}
+                title="Task Tracker"
+                summary="A demo project where you can trackyour daily task."
+                link="https://github.com/01rohanv/task-tracker"
+                github="https://github.com/01rohanv/task-tracker"
+                img={taskTracker}
                 type="Featured Project"
               />
             </div>
 
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProject
                 title="Netflix Clone"
                 summary="A demo netflix clone in which you can see the trailer also"
@@ -199,7 +200,7 @@ const page = () => {
                 img={projectImg}
                 type="Featured Project"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
