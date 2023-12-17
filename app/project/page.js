@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { GitHubIcon } from "../components/Icons";
 import projectImg from "../../public/images/netflix.png";
+import promptopiaImg from "../../public/images/promptopia.png";
 import reactportfolio from "../../public/images/reactportfolio.png";
 import taskTracker from "../../public/images/taskTracker.png";
 import { motion } from "framer-motion";
@@ -141,19 +142,20 @@ const page = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-32 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Netflix Clone"
-                summary="A demo netflix clone in which you can see the trailer also"
-                link="https://github.com/01rohanv/netflix-clone"
-                github="https://github.com/01rohanv/netflix-clone"
-                img={projectImg}
+                title="Promptopia"
+                summary="A FullStack app with NextJs 14 and MongoDB and also has an google sign in option where you can create prompt."
+                link="https://promptopia-ce0ln7cht-rohans-projects-84da7a69.vercel.app/"
+                github="https://github.com/01rohanv/Promptopia"
+                img={promptopiaImg}
                 type="Featured Project"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="React Portfolio"
                 summary="A sample protfolio website made with reactJs."
-                link="https://github.com/01rohanv/React-Portfolio"
+                link="https://portfolio-reactjs-25a95.web.app/"
                 github="https://github.com/01rohanv/React-Portfolio"
                 img={reactportfolio}
                 type="Featured Project"
@@ -170,17 +172,17 @@ const page = () => {
               />
             </div>
 
-            {/* <div className="col-span-12">
+            <div className="col-span-12">
               <FeaturedProject
                 title="Netflix Clone"
                 summary="A demo netflix clone in which you can see the trailer also"
-                link="/"
-                github="/"
+                link="https://netflix-clone-faf0d.web.app/"
+                github="https://github.com/01rohanv/netflix-clone"
                 img={projectImg}
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Netflix Clone"
                 summary="A demo netflix clone in which you can see the trailer also"
