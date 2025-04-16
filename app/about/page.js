@@ -57,7 +57,7 @@ const page = () => {
                 After completing my education, I ventured into the professional
                 world. I have had the opportunity to work in CodeCrux and
                 Anandpush Technolgies, where I've gained valuable experience in
-                Ui/Ux, ReactJs, NextJs.
+                Ui/Ux, ReactJs, NextJs, MongoDB, ExpressJs, NodeJs.
               </p>
             </div>
             <div
@@ -98,7 +98,7 @@ const page = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={3} />+
+                  <AnimatedNumbers value={4} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
