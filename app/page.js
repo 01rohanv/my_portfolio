@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Layout from "./components/Layout";
-import profilePic from "@/public/images/profile.png";
+import profilePic from "@/public/images/profile1.JPG";
 import AnimatedText from "./components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "./components/Icons";
@@ -19,7 +19,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="Rohan"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                className="w-full h-auto lg:hidden md:inline-block md:w-full rounded-lg"
                 priority
                 sizes="(max-width:768px) 100vw ,(max-width:1200px) 50vw,50vw"
               />
