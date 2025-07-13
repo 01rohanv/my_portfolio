@@ -13,6 +13,7 @@ import reactportfolio from "../../public/images/reactportfolio.png";
 import taskTracker from "../../public/images/taskTracker.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "../components/TransitionEffect";
+import gsapImg from "../../public/images/gsap-logo.png";
 
 const FramerImage = motion(Image);
 
@@ -143,11 +144,11 @@ const page = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-32 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Chatty"
-                summary="A FullStack app with Mongo,Express,React.js,Node.js in which you can create an account and chat with your friends."
-                link="https://mernchat-app-awbw.onrender.com/"
-                github="https://github.com/01rohanv/mernChat-app"
-                img={chattyImg}
+                title="Cocktails"
+                summary="A website with animations made with React.js,Gsap"
+                link="https://react-gsap-cocktail-zeta.vercel.app/"
+                github="https://github.com/01rohanv/react-gsap"
+                img={gsapImg}
                 type="Featured Project"
               />
             </div>
@@ -164,11 +165,11 @@ const page = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Task Tracker"
-                summary="A demo project where you can trackyour daily task."
-                link="https://github.com/01rohanv/task-tracker"
-                github="https://github.com/01rohanv/task-tracker"
-                img={taskTracker}
+                title="Chatty"
+                summary="A FullStack app with Mongo,Express,React.js,Node.js in which you can create an account and chat with your friends."
+                link="https://mernchat-app-awbw.onrender.com/"
+                github="https://github.com/01rohanv/mernChat-app"
+                img={chattyImg}
                 type="Featured Project"
               />
             </div>
@@ -191,6 +192,16 @@ const page = () => {
                 link="https://promptopia-ce0ln7cht-rohans-projects-84da7a69.vercel.app/"
                 github="https://github.com/01rohanv/Promptopia"
                 img={promptopiaImg}
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Task Tracker"
+                summary="A demo project where you can trackyour daily task."
+                link="https://github.com/01rohanv/task-tracker"
+                github="https://github.com/01rohanv/task-tracker"
+                img={taskTracker}
                 type="Featured Project"
               />
             </div>
